@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+.container {
+    height: 728px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.con1 {
+    width: 50%;
+    background-color: #21292f;
+    color: white;
+    text-align: center;
+    font-size: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.con2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outwatch {
+    background-color: #3b3b3b;
+    height: 380px;
+    width: 300px;
+    border-radius: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inwatch {
+    background-color: #000000;
+    height: 340px;
+    width: 300px;
+    border-radius: 70px;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    font-size: large;
+    row-gap: 20px;
+}
+
+.cdate {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    padding-top: 20px;
+}
+
+.daytime {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.time {
+    font-size: 7vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+i {
+    color: white;
+}
